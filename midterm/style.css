@@ -2,3 +2,15 @@
     max-width: 1200px;
     background-color: #3293a8;
 }
+body {
+    .banner {
+        width: 500px; /* Adjust the width as needed */
+        height: 572px; /* Adjust the height as needed */
+        background-color: #000000; /* Change the background color as needed */
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    /* background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%); */
+}
