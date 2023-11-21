@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.material-symbols-outlined{
+    float:right
+}
+nav a{
+    display: block;
+    padding: 10px;
+    background-color: aliceblue;
+    border-bottom: solid 1px #999;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: pink;
+}
+.drop-menu a{
+    background-color: blueviolet;
+    color: beige;
+}
+.drop-menu a:hover{
+    background-color: blue;
+}
+
+.drop-menu{
+    display: none;
+}
+nav li:hover .drop-menu{
+    display: block;
+}
+p{
+    margin: 10px;
+}
