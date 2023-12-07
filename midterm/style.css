@@ -4,6 +4,43 @@
 }
 
 header {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(255,255,255,0) 60%),
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 40%),
     url(banner.png) right top no-repeat
 }
+
+.flex-container {
+    display: flex;
+  }
+
+  .flex-item {
+    flex:10 auto;
+  }
+
+  .lead {
+    flex: 20 auto;
+  }
+
+  #wrapper{ 
+    max-width:1200px;
+    margin:0 auto; 
+  }
+
+  .flex-item{
+    width:200px;
+    border:solid 1px gray;
+    padding:5px;
+    border-radius: 10px;
+    margin:0.5em;
+  }
+
+  .lead{
+    border:none;
+  }
+
+  .img-responsive{
+    width:100%;
+  }
+
+  .lead p{
+    font-size: larger;
+  }
