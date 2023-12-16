@@ -1,0 +1,172 @@
+@media (min-width: 700px) {
+  #icon{
+    display: none;
+  }
+
+#wrapper{
+  margin: 40px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading a{
+  color: #061f63;
+  text-decoration: none;
+}
+
+.heading a:hover{
+  color: #2365c9;
+}
+
+.topnav a{
+  margin-right: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.topnav a:hover{
+color: #858d8b;
+}
+
+.searchnav{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.banner{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto;
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.banner button.Apply {
+  background-color: red;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.dropbtn {
+    background-color: #828685;
+    color: rgb(219, 219, 219);
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+
+  .material-symbols-outlined{
+    float:right
+}
+
+main{
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-gap: 200px;
+}
+
+
+}
+
+.card {
+  width: 330px; 
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.digital-design-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+  color: #315270;
+}
